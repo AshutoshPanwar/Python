@@ -1,4 +1,12 @@
-import cs50
-x = cs50.get_int("Value of X: ")
-y = cs50.get_int ("Value of Y: ")
-print(x + y)
+try:
+    x = int(input("X: "))
+except ValueError:
+    print("Thats not an int!")
+    exit()
+try:
+    y = int(input("Y: "))
+except ValueError:
+    print("Thats not an int!")
+    exit()
+
+print(x+y)
