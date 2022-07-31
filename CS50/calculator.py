@@ -1,12 +1,7 @@
-try:
-    x = int(input("X: "))
-except ValueError:
-    print("Thats not an int!")
-    exit()
-try:
-    y = int(input("Y: "))
-except ValueError:
-    print("Thats not an int!")
-    exit()
+x = int(input("X: "))
+y = int(input("Y: "))
 
-print(x+y)
+z = x / y   # / Return float value
+w = x // y  # // Return int value dropping all values after point
+print(z)
+print(w)
