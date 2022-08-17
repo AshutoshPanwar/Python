@@ -12,8 +12,15 @@ def coin_flip():
     else:
         return "Tails"
 
-print(coin_flip())
-print(coin_flip())
-print(coin_flip())
-print(coin_flip())
-print(coin_flip())
+count_head = 0
+count_tail = 0
+
+for toss in range(100):
+    if coin_flip() == "Head":
+        count_head = count_head + 1
+    else:
+        count_tail = count_tail + 1
+
+print(count_head)
+print(count_tail)
+
