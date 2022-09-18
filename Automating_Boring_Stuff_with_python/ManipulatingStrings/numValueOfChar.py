@@ -1,0 +1,18 @@
+# Num to char and Vice-Versa
+
+print("ord('A')")
+print(ord("A"))
+print("ord('4')")
+print(ord("4"))
+print("ord('!')")
+print(ord("!"))
+print("chr(65)")
+print(chr(65))
+print("ord('B')")
+print(ord("B"))
+print("ord('A') < ord('B')")
+print(ord("A") < ord("B"))
+print("chr(ord('A'))")
+print(chr(ord("A")))
+print("chr(ord('A') + 1)")
+print(chr(ord("A") + 1))
